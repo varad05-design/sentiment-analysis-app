@@ -1,6 +1,6 @@
 import requests
 
-API_URL='http://127.0.0.1:5000/predict'
+API_URL='https://sentiment-analysis-app-varad.onrender.com/predict'
 
 positive_review={
     "review": "This movie was absolutely brilliant! The acting was superb and the plot was engaging from start to finish."

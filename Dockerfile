@@ -1,7 +1,7 @@
 # 1. Start with a base image
 # We use an official Python image from Docker Hub. 'python:3.9-slim' is a lightweight
 # version of Python 3.9, which is great for production as it reduces the final image size.
-FROM python:3.9-slim
+FROM python:3.13-slim
 
 # 2. Set the working directory inside the container
 # This command sets the default directory for all subsequent commands (like COPY and RUN).
